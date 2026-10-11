@@ -1,0 +1,104 @@
+Q3 CONTEXT AND SUBMISSION NOTES
+Course: MCA IBM — First Year
+Subject: Full Stack Development
+Practical: MCA Lab 1, Question 3 — HTML Lists
+
+STATUS
+This is a DRAFT prepared before browser testing. It documents a proposed implementation and example code. It does not yet contain actual browser screenshots or proof of successful testing.
+
+TOPIC
+Lists in HTML: unordered lists, ordered lists, description lists, nested lists, and ordered-list attributes.
+
+PROJECT STRUCTURE
+MCA_Full_Stack_Practicals/
+  01_MCA_Lab_1/
+    Q3_Lists/
+      lists.html
+      style.css
+      README.TXT (recommended)
+  04_Submission_PDFs/
+    Q3_Lists_Report.pdf
+  05_Output_Screenshots/
+    Q3_Output_1.png
+    Q3_Output_2.png
+
+HTML TAGS AND ATTRIBUTES
+- <!DOCTYPE html>: declares an HTML5 document.
+- <html lang="en">: root element and document language.
+- <head>: contains page metadata and linked resources.
+- <meta charset="UTF-8">: sets character encoding.
+- <meta name="viewport"...>: helps the page scale on mobile screens.
+- <title>: text shown in the browser tab.
+- <link rel="stylesheet" href="style.css">: loads the separate stylesheet.
+- <body>: contains visible page content.
+- <header>: introductory page content.
+- <nav>: navigation links.
+- <main>: main content area.
+- <section>: groups related content.
+- <footer>: closing page information.
+- <h1>, <h2>, <h3>: headings at different levels.
+- <p>: paragraph.
+- <ul>: unordered/bulleted list.
+- <ol>: ordered/numbered list.
+- <li>: an item inside a list.
+- <dl>: description list container.
+- <dt>: term in a description list.
+- <dd>: description/details for a term.
+- <a href="#unordered">: internal link to the element whose ID is unordered.
+- target="_blank": requests opening a link in a new tab/window.
+- rel="noopener noreferrer": security/privacy attributes for new-context links.
+- start="5": starts ordered list numbering at five.
+- type="I": uses uppercase Roman numerals for ordered-list markers.
+- id: unique element identifier.
+- class: reusable CSS grouping label.
+- <!-- comment -->: developer note not displayed as webpage content.
+
+CSS CONCEPTS
+- body: element selector for global typography, background, color and spacing.
+- .header, .navigation, .content, .footer: class selectors.
+- .navigation a: selects links inside navigation.
+- :hover: styles an element when the pointer is over it.
+- font-family: chooses the text font.
+- background-color and color: set background and text colors.
+- margin: outer spacing.
+- padding: inner spacing.
+- max-width: limits content width.
+- border and border-radius: outline and rounded corners.
+- text-align: aligns text.
+- line-height: controls line spacing.
+- padding-left on lists: controls indentation.
+- display: inline-block allows navigation links to sit next to each other.
+- @media (max-width: 600px): applies responsive styles to narrow screens.
+
+TESTING CHECKLIST
+[ ] Open lists.html in Chrome with Live Server or directly.
+[ ] Confirm stylesheet is loaded.
+[ ] Confirm unordered list displays bullets.
+[ ] Confirm ordered list displays numbering.
+[ ] Confirm description terms and descriptions appear.
+[ ] Confirm nested lists are visibly nested.
+[ ] Confirm start="5" and type="I" render correctly.
+[ ] Click each internal navigation link and verify the destination.
+[ ] Click MDN Web Docs and verify it opens.
+[ ] Test at a narrow browser width.
+[ ] Capture actual browser screenshots.
+[ ] Add the actual screenshots to the final PDF.
+[ ] Ensure local source files match the code in the report.
+
+SCREENSHOT PLAN
+- Q3_Output_1.png: top of page showing title and navigation.
+- Q3_Output_2.png: unordered and ordered list sections.
+- Q3_Output_3.png: description list, nested list and ordered-list attributes.
+Take screenshots from the real browser using Win + Shift + S. Do not use editor screenshots as substitutes for browser output.
+
+GITHUB
+From the repository root, run:
+  git status
+  git add .
+  git commit -m "Add Q3 HTML lists practical"
+  git push
+
+If there are no changes to commit, check whether the files were already committed. If push is rejected because the remote contains new work, do not force-push; integrate the remote changes carefully.
+
+NEXT STEP
+Implement the code in VS Code, run it in the browser, test the checklist and provide screenshots. Then update this draft report with actual screenshots and verified results.
