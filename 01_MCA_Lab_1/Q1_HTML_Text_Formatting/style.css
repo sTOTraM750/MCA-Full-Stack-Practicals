@@ -1,0 +1,74 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Main page header */
+.page-header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Main content container */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Individual content sections */
+.content-card {
+    background-color: white;
+    margin-bottom: 18px;
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+/* Highlighted inline text */
+.highlight {
+    color: #075985;
+    background-color: #e0f2fe;
+    padding: 3px 6px;
+}
+
+/* Preformatted text block */
+pre {
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    overflow-x: auto;
+}
+
+/* Inline code */
+code {
+    background-color: #e2e8f0;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #475569;
+}
+
+/* Improve readability on smaller screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .content-card {
+        padding: 14px;
+    }
+}
