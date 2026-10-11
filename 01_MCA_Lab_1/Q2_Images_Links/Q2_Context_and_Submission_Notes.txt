@@ -1,0 +1,58 @@
+Q2 CONTEXT AND SUBMISSION NOTES
+MCA IBM — 1st Semester
+Subject: Full Stack Development (CAPCMC105T)
+Practical: Q2 — Images, Anchors (Hyperlinks) & Division
+
+SOURCE REQUIREMENTS (MCA Lab 1 PDF, Question 2):
+1. Create media-links.html.
+2. Include at least two <img> elements with src, alt, width and height.
+3. Create an external link that opens in a new tab.
+4. Create an internal link that jumps to a section on the same page.
+5. Use <div> elements to group content such as header, content and footer.
+6. Apply basic styling using id and class attributes on div elements.
+7. Expected output: a page with images, working links and separated sections.
+
+FILES:
+- media-links.html: page structure, images, links and div sections.
+- style.css: colors, spacing, layout and responsive styling.
+- images/: recommended folder for local image assets.
+
+IMPORTANT STATUS:
+This PDF is a DRAFT based on the proposed code. No browser screenshot was supplied, so the report has a placeholder. Before submission:
+1. Run media-links.html with Live Server in Chrome.
+2. Verify both images load.
+3. Test Introduction, Image Gallery, Resources and Back to top links.
+4. Verify MDN Web Docs opens in a new tab.
+5. Capture genuine browser screenshots and replace the placeholder in the PDF.
+6. For reliability, save images locally in images/ and update src paths.
+7. Confirm the report code matches the files you actually tested.
+
+BEGINNER NOTES:
+- <img> embeds an image. src gives its path; alt describes it; width and height specify dimensions.
+- <a> creates a hyperlink. href="#gallery" jumps to the element whose id is gallery.
+- target="_blank" requests a new tab/window; rel="noopener noreferrer" adds protective link behavior.
+- <div> groups related content.
+- id identifies a particular element; class is reusable across elements.
+- CSS .class selects by class; #id selects by ID.
+- padding is inner spacing; margin is outer spacing.
+- display:inline-block allows cards to sit beside one another.
+- object-fit:cover fills the image area and may crop it.
+- :hover applies styles while the pointer is over a link.
+- @media applies styles based on viewport conditions.
+
+SUGGESTED SCREENSHOTS:
+Q2_Output_1_Header.png
+Q2_Output_2_Gallery.png
+Q2_Output_3_Links.png
+Q2_Output_4_Responsive.png (optional)
+
+SUGGESTED FINAL PDF:
+Q2_Images_Links.pdf
+
+GITHUB:
+From the main project root, after testing and saving files:
+  git status
+  git add .
+  git commit -m "Complete Q2 images hyperlinks and div practical"
+  git push
+Do not use force push to resolve ordinary push errors.
