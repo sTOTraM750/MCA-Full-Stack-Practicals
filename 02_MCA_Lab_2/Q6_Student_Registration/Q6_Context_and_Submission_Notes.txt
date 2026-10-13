@@ -1,0 +1,52 @@
+Q6 — STUDENT REGISTRATION WEBPAGE
+Context and Submission Notes
+
+COURSE
+MCA IBM First Semester — Full Stack Development (CAPCMC105T)
+
+PROJECT STRUCTURE
+02_MCA_Lab_2/
+  Q6_Student_Registration/
+    index.html
+    style.css
+    README.txt
+    screenshots/
+      q6-top-and-form.png
+      q6-form-lower-and-image.png
+      q6-instructions-and-footer.png
+    Q6_Student_Registration_Practical_Report.pdf
+    Q6_Context_and_Submission_Notes.txt
+
+REQUIREMENTS COVERED IN THE PROVIDED IMPLEMENTATION
+- meta tag in the head
+- header containing the page title
+- nav with three links
+- main containing the primary page content and form
+- section for introduction, registration and illustration
+- article for MCA program information
+- aside for important instructions
+- figure with image and figcaption
+- form with name, email, password, gender radio buttons, hobbies/skills checkboxes, course select, address textarea, Submit and Reset buttons
+- id and class attributes for form elements
+- footer with contact information
+
+SCREENSHOT EVIDENCE
+1. q6-top-and-form.png — header/navigation and beginning of registration form.
+2. q6-form-lower-and-image.png — lower form controls, course information, instructions, and illustration.
+3. q6-instructions-and-footer.png — instruction panel, illustration/caption, and footer.
+
+TESTING NOTES
+- Browser screenshots show the rendered page, but source code was not independently opened or audited during report generation.
+- action="#" is a demonstration form action and does not save registrations to a server/database.
+- The placeholder image URL requires an internet connection.
+- Check that navigation links jump to the intended sections and test form validation/reset behavior.
+
+GIT COMMANDS
+Run from the root of the existing MCA_Full_Stack_Practicals repository:
+git status
+git add "02_MCA_Lab_2/Q6_Student_Registration"
+git add "04_Submission_PDFs/Q6_Student_Registration_Practical_Report.pdf"
+git commit -m "Add Q6 student registration practical"
+git push origin main
+
+If the PDF is stored inside the Q6 folder rather than 04_Submission_PDFs, adjust the git add path. Check git status before committing. Do not force-push as a routine fix.

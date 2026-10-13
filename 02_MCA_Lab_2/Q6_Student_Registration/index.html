@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MCA student registration webpage">
+    <title>Student Registration | MCA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="page-header">
+        <h1>MCA Student Registration</h1>
+        <p>Register for your preferred academic program</p>
+    </header>
+
+    <nav class="navigation">
+        <a href="#home">Home</a>
+        <a href="#registration">Registration</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="home" class="container">
+
+        <section class="intro">
+            <h2>Welcome, Student!</h2>
+            <p>Complete this form to provide your student details and course preferences.</p>
+        </section>
+
+        <section class="registration-section" id="registration">
+            <h2>Registration Details</h2>
+
+            <form action="#" method="get" class="registration-form">
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"
+                       class="form-control" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                       class="form-control" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"
+                       class="form-control" required>
+
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label class="inline-label">
+                        <input type="radio" name="gender" value="Male" required>
+                        Male
+                    </label>
+                    <label class="inline-label">
+                        <input type="radio" name="gender" value="Female">
+                        Female
+                    </label>
+                    <label class="inline-label">
+                        <input type="radio" name="gender" value="Other">
+                        Other
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hobbies / Skills</legend>
+                    <label class="inline-label">
+                        <input type="checkbox" name="skills" value="Programming">
+                        Programming
+                    </label>
+                    <label class="inline-label">
+                        <input type="checkbox" name="skills" value="Gaming">
+                        Gaming
+                    </label>
+                    <label class="inline-label">
+                        <input type="checkbox" name="skills" value="Design">
+                        Design
+                    </label>
+                </fieldset>
+
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" class="form-control" required>
+                    <option value="">-- Choose a course --</option>
+                    <option value="MCA">Master of Computer Applications</option>
+                    <option value="MBA">Master of Business Administration</option>
+                    <option value="MSc">Master of Science</option>
+                    <option value="MCom">Master of Commerce</option>
+                </select>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address"
+                          class="form-control" rows="4"></textarea>
+
+                <div class="button-group">
+                    <button type="submit">Submit Registration</button>
+                    <button type="reset" class="reset-button">Reset</button>
+                </div>
+
+            </form>
+        </section>
+
+        <article class="course-info">
+            <h2>About the MCA Program</h2>
+            <p>The Master of Computer Applications program focuses on computing,
+               software development, databases, and information technology.</p>
+        </article>
+
+        <aside class="instructions">
+            <h2>Important Instructions</h2>
+            <ul>
+                <li>Enter a valid email address.</li>
+                <li>Complete all required fields.</li>
+                <li>Review your information before submitting.</li>
+            </ul>
+        </aside>
+
+        <section class="illustration">
+            <figure>
+                <img
+                    src="https://placehold.co/600x250/1e3a5f/ffffff?text=MCA+Student+Registration"
+                    alt="Illustration representing MCA student registration">
+                <figcaption>Student Registration — MCA Program</figcaption>
+            </figure>
+        </section>
+
+    </main>
+
+    <footer class="page-footer" id="contact">
+        <p>MCA Full Stack Development Practical — Q6</p>
+        <p>Contact: student@example.com</p>
+        <p>&copy; 2026 Student Registration Webpage</p>
+    </footer>
+
+</body>
+</html>
