@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Student portfolio showcasing education, skills, projects and contact information.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio | MCA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header" id="home">
+        <div class="profile">
+            <img
+                class="profile-image"
+                src="https://placehold.co/150x150/1e3a5f/ffffff?text=Student"
+                alt="Student profile placeholder"
+                width="150"
+                height="150"
+            >
+            <div>
+                <p class="eyebrow">STUDENT PORTFOLIO</p>
+                <h1>Sparsh Ranjan</h1>
+                <p>MCA Student | Aspiring Software Developer</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="container">
+
+        <section class="content-card" id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a student interested in programming, web
+                development, problem-solving, and learning new technologies.
+                This portfolio presents my education, skills, projects,
+                and contact information.
+            </p>
+        </section>
+
+        <section class="content-card" id="education">
+            <h2>Education</h2>
+
+            <article class="education-item">
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p><strong>Program:</strong> Postgraduate computer applications</p>
+                <p>
+                    Studying programming, software development, databases,
+                    and computer science fundamentals.
+                </p>
+            </article>
+
+            <article class="education-item">
+                <h3>Bachelor of Commerce (B.Com)</h3>
+                <p><strong>Program:</strong> Undergraduate degree</p>
+                <p>
+                    Developed a foundation in commerce, business, and
+                    analytical thinking.
+                </p>
+            </article>
+        </section>
+
+        <section class="content-card" id="projects">
+            <h2>Academic Projects and Achievements</h2>
+
+            <article class="project-card">
+                <h3>Student Portfolio Website</h3>
+                <p>
+                    A responsive webpage built with HTML and CSS to
+                    demonstrate semantic elements, navigation, forms,
+                    multimedia, and canvas.
+                </p>
+                <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript</p>
+            </article>
+
+            <article class="project-card">
+                <h3>Student Management System Concept</h3>
+                <p>
+                    A project concept for organizing student details,
+                    academic records, and course information.
+                </p>
+                <p><strong>Focus:</strong> Data organization and software design</p>
+            </article>
+        </section>
+
+        <aside class="content-card skills-card" id="skills">
+            <h2>Skills and Quick Information</h2>
+
+            <ul class="skill-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>C++ Fundamentals</li>
+                <li>Problem-Solving</li>
+                <li>Git and GitHub Fundamentals</li>
+            </ul>
+
+            <p><strong>Interests:</strong> Programming, technology, and learning.</p>
+            <p><strong>Career Goal:</strong> To develop strong software engineering skills.</p>
+        </aside>
+
+        <section class="content-card">
+            <h2>Project Illustration</h2>
+
+            <figure>
+                <img
+                    class="project-image"
+                    src="https://placehold.co/900x350/1e3a5f/ffffff?text=Student+Portfolio+Project"
+                    alt="Illustration representing a student portfolio project"
+                    width="900"
+                    height="350"
+                >
+                <figcaption>
+                    A sample illustration representing my portfolio and
+                    software development learning journey.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="content-card multimedia" id="multimedia">
+            <h2>Multimedia Introduction</h2>
+            <p>Use the audio player to play the sample portfolio introduction.</p>
+
+            <audio controls>
+                <source
+                    src="https://www.w3schools.com/html/horse.mp3"
+                    type="audio/mpeg"
+                >
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section class="content-card">
+            <h2>My Learning Progress</h2>
+            <p>
+                The canvas below displays a simple graphical representation
+                of my current learning progress.
+            </p>
+
+            <canvas id="progressCanvas" width="600" height="240">
+                Your browser does not support the canvas element.
+            </canvas>
+        </section>
+
+        <section class="content-card" id="contact">
+            <h2>Student Contact Form</h2>
+            <p>Use this demonstration form to enter contact information.</p>
+
+            <form action="#" method="get" id="contactForm">
+
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="student@example.com"
+                        required
+                    >
+                </div>
+
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+
+                    <label class="inline-label">
+                        <input type="radio" name="contactMethod" value="email" required>
+                        Email
+                    </label>
+
+                    <label class="inline-label">
+                        <input type="radio" name="contactMethod" value="phone">
+                        Phone
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Areas of Interest</legend>
+
+                    <label class="inline-label">
+                        <input type="checkbox" name="interests" value="web">
+                        Web Development
+                    </label>
+
+                    <label class="inline-label">
+                        <input type="checkbox" name="interests" value="programming">
+                        Programming
+                    </label>
+
+                    <label class="inline-label">
+                        <input type="checkbox" name="interests" value="design">
+                        Design
+                    </label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="course">Select Course:</label>
+                    <select id="course" name="course" required>
+                        <option value="">-- Select a course --</option>
+                        <option value="mca">Master of Computer Applications</option>
+                        <option value="web">Web Development</option>
+                        <option value="cpp">C++ Programming</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here"
+                        required
+                    ></textarea>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit">Submit</button>
+                    <button type="reset" class="reset-button">Reset</button>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p><strong>Student Portfolio — MCA</strong></p>
+        <p>Contact: student@example.com</p>
+        <p>&copy; 2026 Student Portfolio. Academic practical demonstration.</p>
+        <a href="#home">Back to Top</a>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById("progressCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // Draw the background.
+        ctx.fillStyle = "#1e3a5f";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Draw the heading.
+        ctx.fillStyle = "#ffffff";
+        ctx.font = "bold 25px Arial";
+        ctx.fillText("Learning Progress", 25, 40);
+
+        // Draw a background bar.
+        ctx.fillStyle = "#cbd5e1";
+        ctx.fillRect(25, 75, 500, 30);
+
+        // Draw the progress bar (60%).
+        ctx.fillStyle = "#38bdf8";
+        ctx.fillRect(25, 75, 300, 30);
+
+        // Add labels.
+        ctx.fillStyle = "#ffffff";
+        ctx.font = "16px Arial";
+        ctx.fillText("Progress: 60%", 25, 140);
+        ctx.fillText("Keep learning and building projects!", 25, 180);
+    </script>
+
+</body>
+</html>

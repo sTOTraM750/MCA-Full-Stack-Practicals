@@ -1,0 +1,58 @@
+A1 MARKSHEET — CONTEXT AND SUBMISSION NOTES
+=============================================
+
+Project folder:
+03_HTML_CSS_Assignment/A1_Marksheet/
+
+Files:
+- index.html
+- style.css
+- README.txt
+- ../04_Submission_PDFs/A1_Marksheet_Practical_Report.pdf (suggested repository location)
+
+Purpose:
+Build a fictional BCA six-semester academic marksheet using HTML and CSS.
+
+Features in the submitted version:
+- University/college header and placeholder logo
+- Student information table
+- Six semester-wise subject tables
+- Subject code, subject name, maximum marks, marks obtained, and grade
+- Semester totals and illustrative SGPA values
+- Final result summary and signature placeholders
+- Footer note explaining the sample nature of the data
+- Responsive CSS for narrower screens
+- Print CSS configured for A4 landscape
+
+Main HTML concepts:
+doctype, html, head, meta, title, link, body, header, main, section, footer,
+h1-h3, p, table, thead, tbody, tfoot, tr, th, td, div.
+
+Main CSS concepts:
+universal selector, box-sizing, typography, colors, margins, padding, borders,
+max-width, table-collapse, nth-child, Flexbox, media queries, and print styles.
+
+Output evidence:
+The PDF report includes the browser screenshots supplied in the conversation.
+
+Arithmetic check:
+Semester marks: 315 + 320 + 334 + 328 + 341 + 354 = 1992.
+Maximum marks: 6 x 400 = 2400.
+Overall percentage: 1992 / 2400 x 100 = 83%.
+The listed SGPA/CGPA values are illustrative sample values, not derived from an official grading policy.
+
+Before final submission:
+1. Open index.html in Live Server or a browser.
+2. Check the top, middle, and bottom of the page.
+3. Use Ctrl+P to review print preview.
+4. Confirm README.txt is saved.
+5. Ensure the PDF report is copied into 04_Submission_PDFs if that is your chosen repository convention.
+6. Commit and push from the Git repository root.
+
+Suggested Git commands (run from the repository root):
+git status
+git add "03_HTML_CSS_Assignment/A1_Marksheet" "04_Submission_PDFs/A1_Marksheet_Practical_Report.pdf"
+git commit -m "Add A1 HTML CSS marksheet assignment"
+git push origin main
+
+This is an educational sample, not an official academic document.

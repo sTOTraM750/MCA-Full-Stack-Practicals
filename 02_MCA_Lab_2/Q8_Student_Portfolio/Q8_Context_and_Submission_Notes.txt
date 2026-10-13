@@ -1,0 +1,62 @@
+MCA FULL STACK DEVELOPMENT — Q8 CONTEXT AND SUBMISSION NOTES
+Practical: Student Portfolio Webpage
+Course: MCA IBM — 1st Semester
+Subject: Full Stack Development (CAPCMC105T)
+
+PROJECT FILES
+02_MCA_Lab_2/Q8_Student_Portfolio/
+  index.html
+  style.css
+
+REPORT
+Q8_Student_Portfolio_Practical_Report.pdf
+
+REQUIREMENTS FROM THE LAB QUESTION
+- Meta tags for character encoding and page description.
+- Header containing student's name and profile image.
+- Navigation links to About, Education, Skills and Contact.
+- Main container.
+- Sections for About Me and Education.
+- Article describing academic achievements or projects.
+- Aside containing skills or quick information.
+- Figure and figcaption for the student's/project image.
+- Student Contact Form with text, email, radio button, checkbox, select, textarea, Submit and Reset controls.
+- Appropriate id and class attributes.
+- Audio or video element.
+- Canvas element for a simple graphical representation.
+- Footer containing copyright/contact information.
+
+IMPLEMENTED FEATURES
+- Semantic HTML5 page structure and responsive viewport.
+- Portfolio profile header and navigation anchors.
+- About, Education, Projects and Skills content.
+- Contact form controls with associated labels.
+- Required-field validation and email input validation by the browser.
+- External sample audio player.
+- Canvas drawing using JavaScript: background, title, 60% progress bar and labels.
+- CSS card styling, flexbox, focus/hover states and responsive media query.
+- Footer with contact text, copyright and Back to Top link.
+
+IMPORTANT LIMITATIONS
+- This is a front-end practical demonstration. The form does not save or send submissions to a backend.
+- Placeholder images and the audio file are external resources; internet access may be needed.
+- Browser screenshots were supplied and included in the PDF. They show rendered output, but do not establish that every navigation link or form behavior was independently tested.
+- Review the HTML/CSS files and ensure they match the screenshot output before final submission.
+
+SCREENSHOT EVIDENCE
+Five supplied screenshots are included in the PDF, covering:
+1. Header, navigation, About and Education.
+2. Projects, Skills and project illustration.
+3. Illustration, audio player and canvas.
+4. Canvas and contact form.
+5. Form controls and footer.
+
+GITHUB COMMANDS
+Run from the repository root in PowerShell:
+git status
+git add 02_MCA_Lab_2/Q8_Student_Portfolio
+git add 04_Submission_PDFs/Q8_Student_Portfolio_Practical_Report.pdf
+git commit -m "Add Q8 student portfolio practical"
+git push
+
+If the PDF is stored in the Q8 folder instead of 04_Submission_PDFs, adjust the git add path to match its actual location. If git reports there is nothing to commit, run git status and verify that the files are saved in the repository.

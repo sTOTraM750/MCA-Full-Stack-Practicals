@@ -1,0 +1,53 @@
+Q7 — COLLEGE EVENT MULTIMEDIA WEBPAGE
+Context and Submission Notes
+
+OBJECTIVE
+Create a College Annual Fest webpage using HTML and CSS, including semantic HTML5 elements, multimedia, and a canvas graphic.
+
+PROJECT FOLDER
+02_MCA_Lab_2/Q7_College_Event/
+
+EXPECTED FILES
+index.html
+style.css
+media/fest-audio.mp3
+media/fest-video.mp4
+Q7_College_Event_Multimedia_Practical_Report.pdf
+Q7_Context_and_Submission_Notes.txt
+screenshots/ (optional; save browser evidence here)
+
+FEATURES IMPLEMENTED
+- Meta charset, viewport, and description.
+- Header, nav, main, section, article, aside, figure, figcaption, and footer.
+- Internal navigation links for Home, Events, Gallery, and Registration.
+- Three event articles: Code Clash, Battle of Bands, and Creative Canvas.
+- Important announcements list.
+- Fest illustration with a figure caption.
+- HTML audio and video controls using local media paths.
+- Canvas graphic drawn with JavaScript.
+- CSS grid, hover states, spacing, colors, rounded corners, and responsive layout.
+
+MEDIA CHECK
+The audio file must be named fest-audio.mp3 and stored in media/.
+The video file must be named fest-video.mp4 and stored in media/.
+A visible player control does not prove the file plays. Test playback before submission.
+If either file is missing or the video remains blank, replace it with a valid media file at the specified path.
+
+CONTENT NOTES
+The fest name, date, venue, and contact email are demonstration values. Update them to match the college/instructor requirements if necessary.
+The registration section is informational; it does not submit or store student registrations.
+
+SCREENSHOTS
+Screenshots supplied by the user were included in the report when available. They show the header/navigation, event cards, announcements, multimedia controls, canvas, registration information, and footer.
+
+GIT COMMANDS
+Run in the existing repository root:
+git status
+git add "02_MCA_Lab_2/Q7_College_Event"
+git add "04_Submission_PDFs/Q7_College_Event_Multimedia_Practical_Report.pdf"
+git add "04_Submission_PDFs/Q7_Context_and_Submission_Notes.txt"
+git commit -m "Add MCA Lab 2 Q7 college event webpage"
+git push
+
+If your context file is stored outside the repository, copy it into the project folder or submission folder before adding it.
+If push is rejected, do not force-push routinely. Fetch/pull and resolve the remote changes first.

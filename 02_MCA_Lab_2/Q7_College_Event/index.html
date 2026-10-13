@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="College annual fest events, announcements and multimedia">
+    <title>Utsav 2026 | College Annual Fest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header" id="home">
+        <p class="eyebrow">ANNUAL CULTURAL FEST</p>
+        <h1>UTSAV 2026</h1>
+        <p>Celebrate Talent. Create Memories. Build Connections.</p>
+    </header>
+
+    <nav class="navigation">
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#registration">Registration</a>
+    </nav>
+
+    <main class="container">
+
+        <section class="intro" id="about">
+            <h2>Welcome to Utsav 2026</h2>
+            <p>
+                Utsav is our college annual fest celebrating creativity,
+                technology, music, and student talent. Join us for a day
+                filled with competitions, performances, and unforgettable
+                experiences.
+            </p>
+            <p><strong>Date:</strong> 20 November 2026</p>
+            <p><strong>Venue:</strong> College Main Auditorium and Campus</p>
+        </section>
+
+        <section id="events">
+            <h2>Featured Events</h2>
+
+            <div class="event-grid">
+                <article class="event-card">
+                    <span class="event-number">EVENT 01</span>
+                    <h3>Code Clash</h3>
+                    <p>
+                        Test your programming, problem-solving, and
+                        logical-thinking skills in a friendly coding contest.
+                    </p>
+                    <p><strong>Category:</strong> Technical</p>
+                </article>
+
+                <article class="event-card">
+                    <span class="event-number">EVENT 02</span>
+                    <h3>Battle of Bands</h3>
+                    <p>
+                        Experience live music and cheer for student
+                        performers competing on the main stage.
+                    </p>
+                    <p><strong>Category:</strong> Cultural</p>
+                </article>
+
+                <article class="event-card">
+                    <span class="event-number">EVENT 03</span>
+                    <h3>Creative Canvas</h3>
+                    <p>
+                        Showcase your imagination through art, poster
+                        design, and creative visual storytelling.
+                    </p>
+                    <p><strong>Category:</strong> Creative</p>
+                </article>
+            </div>
+        </section>
+
+        <aside class="announcements">
+            <h2>Important Announcements</h2>
+            <ul>
+                <li>Student registration opens at 9:00 AM.</li>
+                <li>Participants should arrive 30 minutes before their event.</li>
+                <li>Carry your college identity card.</li>
+                <li>Follow the instructions provided by event coordinators.</li>
+            </ul>
+        </aside>
+
+        <section id="gallery">
+            <h2>Fest Highlight</h2>
+
+            <figure class="fest-figure">
+                <div class="fest-art" role="img"
+                     aria-label="Decorative illustration of the Utsav college fest">
+                    <span>UTSAV</span>
+                    <span>2026</span>
+                    <span class="art-caption">MUSIC • CULTURE • TECHNOLOGY</span>
+                </div>
+                <figcaption>
+                    Utsav 2026 — a celebration of student creativity and talent.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="multimedia-section" id="multimedia">
+            <h2>Fest Multimedia</h2>
+
+            <div class="media-card">
+                <h3>Fest Audio</h3>
+                <p>Play the audio track for the event.</p>
+                <audio controls>
+                    <source src="media/fest-audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="media-card">
+                <h3>Fest Video</h3>
+                <p>Watch a short video from the fest.</p>
+                <video controls width="100%" poster="">
+                    <source src="media/fest-video.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+        </section>
+
+        <section class="canvas-section">
+            <h2>Fest Canvas</h2>
+            <p>The following canvas displays a simple event graphic drawn using JavaScript.</p>
+
+            <canvas id="festCanvas" width="600" height="220">
+                Your browser does not support the HTML canvas element.
+            </canvas>
+        </section>
+
+        <section class="registration" id="registration">
+            <h2>Event Registration Information</h2>
+            <p>
+                Visit the college event desk to register for your preferred
+                activities. Check the announcements for reporting times.
+            </p>
+            <a class="register-link" href="#contact">Contact the Organizers</a>
+        </section>
+
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <p><strong>UTSAV 2026 — College Annual Fest</strong></p>
+        <p>Contact: events@example.edu</p>
+        <p>&copy; 2026 College Annual Fest. For academic demonstration.</p>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById("festCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // Background
+        ctx.fillStyle = "#1e3a5f";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Decorative circles
+        ctx.fillStyle = "#f59e0b";
+        ctx.beginPath();
+        ctx.arc(55, 45, 22, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.fillStyle = "#38bdf8";
+        ctx.beginPath();
+        ctx.arc(545, 175, 30, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Canvas text
+        ctx.fillStyle = "#ffffff";
+        ctx.textAlign = "center";
+        ctx.font = "bold 38px Arial";
+        ctx.fillText("UTSAV 2026", 300, 100);
+
+        ctx.font = "18px Arial";
+        ctx.fillText("Celebrate Student Talent!", 300, 140);
+
+        ctx.font = "13px Arial";
+        ctx.fillText("MUSIC  |  CULTURE  |  TECHNOLOGY", 300, 180);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #1e293b;
+    background-color: #f1f5f9;
+}
+
+.site-header {
+    padding: 45px 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #1e3a5f, #312e81);
+}
+
+.site-header h1 {
+    margin: 5px 0;
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    letter-spacing: 5px;
+}
+
+.site-header p {
+    margin: 8px 0;
+}
+
+.eyebrow {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #0f172a;
+}
+
+.navigation a {
+    padding: 8px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navigation a:hover {
+    background-color: #334155;
+}
+
+.container {
+    width: min(100% - 32px, 1000px);
+    margin: 28px auto;
+}
+
+section,
+.announcements {
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(15, 23, 42, 0.07);
+}
+
+h2 {
+    margin-top: 0;
+    color: #1e3a5f;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.event-card {
+    padding: 20px;
+    background-color: #f8fafc;
+    border: 1px solid #dbe3ee;
+    border-top: 4px solid #f59e0b;
+    border-radius: 8px;
+}
+
+.event-card h3 {
+    color: #1e3a5f;
+}
+
+.event-number {
+    color: #b45309;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.announcements {
+    border-left: 5px solid #f59e0b;
+}
+
+.announcements li {
+    margin-bottom: 8px;
+}
+
+.fest-figure {
+    margin: 0;
+    text-align: center;
+}
+
+.fest-art {
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    color: white;
+    background: linear-gradient(135deg, #1e3a5f, #4338ca);
+    border-radius: 8px;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.art-caption {
+    margin-top: 12px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+figcaption {
+    margin-top: 12px;
+    color: #475569;
+    font-style: italic;
+}
+
+.media-card {
+    margin-top: 18px;
+    padding: 18px;
+    background-color: #f8fafc;
+    border: 1px solid #dbe3ee;
+    border-radius: 8px;
+}
+
+audio,
+video {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+}
+
+#festCanvas {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 15px auto 0;
+    border-radius: 8px;
+}
+
+.register-link {
+    display: inline-block;
+    padding: 10px 16px;
+    color: rgb(255, 194, 194);
+    background-color: #1e3a5f;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    background-color: #334e78;
+}
+
+.site-footer {
+    padding: 25px 15px;
+    text-align: center;
+    color: rgb(255, 160, 160);
+    background-color: #1e3a5f;
+}
+
+.site-footer p {
+    margin: 7px 0;
+}
+
+@media (max-width: 700px) {
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section,
+    .announcements {
+        padding: 18px;
+    }
+
+    .fest-art {
+        min-height: 180px;
+        font-size: 2.3rem;
+    }
+}
