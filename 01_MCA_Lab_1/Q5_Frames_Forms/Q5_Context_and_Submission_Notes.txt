@@ -1,0 +1,51 @@
+Q5 — FRAMES & FORMS (COMBINED)
+Context and Submission Notes
+
+PRACTICAL OBJECTIVE
+Create a set of HTML pages demonstrating frames, navigation links, and a student registration form.
+
+FILES EXPECTED IN THE PROJECT
+Q5_Frames_Forms/
+  frameset.html
+  nav.html
+  content.html
+  form.html
+  about.html
+  style.css
+  README.txt
+  screenshots/
+    navigation.png
+    home-content.png
+    registration-form.png
+    registration-filled.png
+    about-content.png
+  Q5_Frames_and_Forms_Practical_Report.pdf
+  Q5_Context_and_Submission_Notes.txt
+
+SCREENSHOTS PROVIDED
+1. navigation.png — left navigation panel with Home, Student Registration, About.
+2. registration-filled.png — registration form with sample values.
+3. home-content.png — welcome page and objectives.
+4. registration-form.png — blank student registration form.
+5. about-content.png — About page and topics covered.
+
+FEATURES VISIBLE
+- Two-panel layout with navigation and content.
+- Links for Home, Student Registration, and About.
+- Registration form with full name, password, email, gender radio buttons, interests checkboxes, course dropdown, address textarea, Submit and Reset buttons.
+- Styled panels, inputs, links, and buttons.
+
+IMPORTANT NOTES
+- The form is a demonstration only. action="#" does not save information to a database or server.
+- The frameset/frame elements are obsolete in modern HTML, but they are used here because the lab question explicitly asks for a frameset.
+- Screenshots establish visual evidence but do not prove all source-code details or server-side functionality.
+- The filled screenshot contains personal information. Review it before sharing the report publicly; use a blank form screenshot if you prefer not to publish personal details.
+
+GIT COMMANDS
+Run from the root of the existing repository, and adjust the folder path if needed:
+git status
+git add "01_MCA_Lab_1/Q5_Frames_Forms"
+git commit -m "Add Q5 frames and forms practical"
+git push
+
+If Git rejects the push, fetch/pull and reconcile remote changes. Do not force-push as a routine fix. Do not claim the files were pushed until Git confirms success.

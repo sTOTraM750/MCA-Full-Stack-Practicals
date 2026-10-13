@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #1e3a5f;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navigation-page {
+    padding: 15px;
+    background-color: #1e3a5f;
+    color: white;
+}
+
+.navigation-page h2 {
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    background-color: #294d75;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #416b98;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+fieldset {
+    margin: 8px 0 15px;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #1e3a5f;
+}
+
+.inline-label {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e3a5f;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #294d75;
+}
+
+.reset-button {
+    background-color: #64748b;
+}
+
+.reset-button:hover {
+    background-color: #475569;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
