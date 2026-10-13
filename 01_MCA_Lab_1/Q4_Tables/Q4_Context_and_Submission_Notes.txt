@@ -1,0 +1,46 @@
+Q4 — HTML TABLES PRACTICAL
+Context and Submission Notes
+
+PURPOSE
+Create a page demonstrating HTML tables and CSS styling for student marks and a weekly computer lab timetable.
+
+BROWSER EVIDENCE SUPPLIED
+- screenshots/full_tables_page.png: full-page view
+- screenshots/student-marks-table.png: marks table and footer
+- screenshots/lab-timetable.png: timetable and merged cells
+
+FEATURES VISIBLE IN THE SCREENSHOTS
+1. Page heading: MCA Student Marks
+2. Section heading: Semester 1 Result
+3. Student Marks Table with Roll Number, Student Name, Subject, and Marks columns
+4. Three example records: 101 / Aarav / HTML / 85; 102 / Meera / CSS / 91; 103 / Kabir / JavaScript / 88
+5. Footer labelled Total Students with value 3
+6. Computer Lab Timetable for Monday, Tuesday, and Wednesday
+7. Time columns: 9–10 AM, 10–11 AM, 11 AM–12 PM
+8. HTML Lab cell spans Monday and Tuesday (rowspan=2)
+9. Project Workshop spans two time columns (colspan=2)
+10. Dark-blue headers, alternating pale row shading, cell borders, light page background
+
+ACCURACY NOTE
+Screenshots confirm visual output but do not prove the exact saved HTML source or whether scope attributes are present. Confirm tables.html and style.css before submitting. The report does not claim automated validation or link testing.
+
+EXPECTED FOLDER CONTENTS
+Q4_Tables/
+  tables.html
+  style.css
+  README.txt
+  screenshots/
+    full_tables_page.png
+    student-marks-table.png
+    lab-timetable.png
+  Q4_HTML_Tables_Practical_Report.pdf
+  Q4_Context_and_Submission_Notes.txt
+
+GIT SUBMISSION COMMANDS
+Run these from the repository root and adjust the folder path if yours differs:
+git status
+git add "01_MCA_Lab_1/Q4_Tables"
+git commit -m "Add Q4 HTML tables practical"
+git push
+
+If git push is rejected, fetch/pull and reconcile the remote changes; do not force-push as a routine fix. Do not claim the files were pushed until Git confirms success.
